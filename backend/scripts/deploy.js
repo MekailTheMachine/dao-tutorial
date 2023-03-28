@@ -1,5 +1,6 @@
 const hre = require("hardhat");
 const { CRYPTODEVS_NFT_CONTRACT_ADDRESS } = require("../constants");
+require("dotenv").config({ path: ".env" });
 
 //* How to change this file
 /*
